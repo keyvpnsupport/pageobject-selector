@@ -1,0 +1,104 @@
+# Privacy Policy — QA PageObject Selector
+
+Last updated: September 13, 2026
+
+QA PageObject Selector is a browser extension that helps users generate CSS and XPath selectors and Java PageObject locators from elements on the currently active web page.
+
+## Data processed by the extension
+
+QA PageObject Selector processes the rendered DOM and website content of the currently active page when the user explicitly activates the element picker or page scanner.
+
+This processing is necessary to:
+
+- inspect page elements;
+- generate CSS and XPath selectors;
+- determine how many elements match a selector;
+- highlight selected or matching elements;
+- generate Java PageObject locator code;
+- detect repeated list elements and generate scoped or positional XPath selectors.
+
+All page analysis is performed locally in the user's browser.
+
+## Locally stored data
+
+The extension uses Chrome local storage to save user preferences, including:
+
+- selector configuration profiles;
+- selector priority settings;
+- custom test attributes;
+- dynamic ID patterns;
+- ignored class patterns;
+- interface language;
+- picker panel position;
+- main panel position;
+- optional website hostname-to-profile mappings configured by the user.
+
+This information remains stored locally in the browser.
+
+## Data transmission
+
+QA PageObject Selector does not transmit website content, generated selectors, browsing data, configuration settings, or other user data to the developer or to external servers.
+
+The extension does not use:
+
+- analytics services;
+- advertising networks;
+- telemetry services;
+- tracking technologies;
+- remote APIs for page analysis;
+- remote code execution.
+
+## Data sharing and selling
+
+User data is not sold, rented, licensed, or shared with third parties.
+
+User data is not used for advertising, profiling, creditworthiness decisions, or purposes unrelated to the extension's functionality.
+
+## Website access
+
+The extension uses Chrome's `activeTab` permission to access the currently active page only after the user explicitly activates the extension.
+
+The extension does not request permanent access to all websites.
+
+## Data retention
+
+Website content inspected by the extension is processed temporarily in the browser and is not stored by the developer.
+
+Extension settings stored through `chrome.storage.local` remain on the user's device until the user:
+
+- changes the settings;
+- resets the extension settings;
+- clears the extension's stored data; or
+- uninstalls the extension.
+
+## Permissions
+
+### activeTab
+
+Allows the extension to temporarily access the currently active page after explicit user interaction.
+
+### scripting
+
+Allows the extension to inject its locally packaged selector picker and page-scanning functionality into the active page.
+
+### storage
+
+Allows the extension to save configuration profiles, language preferences, selector settings, and panel positions locally in Chrome.
+
+## Chrome Web Store Limited Use
+
+QA PageObject Selector's use of information received from Chrome APIs complies with the Chrome Web Store User Data Policy, including the Limited Use requirements.
+
+Information accessed by the extension is used only to provide the user-facing selector generation and PageObject functionality described in the extension.
+
+The extension does not transfer user data for advertising purposes and does not allow humans to access user website content.
+
+## Changes to this Privacy Policy
+
+If the extension's data practices change in a future version, this Privacy Policy will be updated accordingly.
+
+## Contact
+
+For questions, bug reports, or privacy-related requests, please use the project's GitHub repository or support page:
+
+https://github.com/YOUR_GITHUB_USERNAME/pageobject-selector
